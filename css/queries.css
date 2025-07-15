@@ -1,0 +1,109 @@
+@media (max-width: 800px) {
+  h1 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .btn-text {
+    font-size: 12px;
+  }
+  .main-container {
+    width: 375px;
+    height: 900px;
+    background-image: url(/images/bg-mobile.svg);
+    background-position: top;
+    background-size: contain;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-container {
+    flex-direction: column;
+    gap: 46px;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-img {
+    height: 209px;
+    width: 296px;
+  }
+  .hero-image-container {
+    width: 296px;
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-content-container {
+    width: 304px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn:link,
+  .btn:visited,
+  .btn {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 28px;
+    align-content: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    transition: 500ms;
+  }
+  .btn:hover,
+  .btn:active {
+    background-color: #e880e8;
+    color: white;
+  }
+  .logo {
+    top: -100px;
+    left: 0;
+    width: 120px;
+    height: 40px;
+  }
+
+  .facebook-icon,
+  .twitter-icon,
+  .instagram-icon {
+    height: 16px;
+    width: 16px;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 8px;
+    fill: white;
+    transition: 1000ms;
+  }
+  .facebook-icon:hover,
+  .twitter-icon:hover,
+  .instagram-icon:hover {
+    border: 1px solid #ff52c1;
+    fill: #ff52c1;
+    scale: 110%;
+    rotate: 360deg;
+  }
+
+  .social-icons {
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    bottom: 0px;
+  }
+}
